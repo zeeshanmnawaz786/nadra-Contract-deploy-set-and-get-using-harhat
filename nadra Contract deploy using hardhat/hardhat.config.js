@@ -8,8 +8,8 @@ module.exports = {
     hardhat: {
     },
     rinkeby: {
-      url: "https://rinkeby.infura.io/v3/4b23bef4af964a72af90e99ec8c93f21",
-      accounts: ["2e911f9576c27017615d69f5c6bb54ca89be7170d0f11cdba67478c4f88c94eb"]
+      url: "paste your infura api",
+      accounts: ["paste your contract address"]
     }
   },
   solidity: {

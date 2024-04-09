@@ -4,8 +4,8 @@
 
 var ethers =require('ethers');
 
-const INFURA_API_URL = 'https://rinkeby.infura.io/v3/4b23bef4af964a72af90e99ec8c93f21';
-const CONTRACT_ADDRESS = '0xdd6db3d632c8677d9DAF4C950bc8EE1D0599188b';
+const INFURA_API_URL = 'paste your infura api';
+const CONTRACT_ADDRESS = 'paste your contract address';
 const CONTRACT_ABI = require('../artifacts/contracts/nadra.sol/NADRA.json');
 
 let customHttpProvider = new ethers.providers.JsonRpcProvider(INFURA_API_URL);
